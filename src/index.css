@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: "Kanit", sans-serif;
+  --font-itim: "Itim", cursive;
+  --font-charm: "Charm", cursive;
+}
+
+body {
+  font-family: var(--font-kanit);
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.swal2-popup {
+  font-family: var(--font-kanit) !important;
+  border-radius: 1rem !important;
+}
